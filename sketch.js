@@ -59,25 +59,6 @@ function draw() {
     drawLines1();
   }
   drawLines2();
-
-
-
-// if (choice === "circle"){
-//    drawCircles();
-// } else if (choice === "lines"){
-//     drawLines1();
-// } else if (choice === "rectangle"){
-//     draw rectangle function
-// } else if (choice === "triangle"){
-//    draw triangle function
-//}
-
-
-
-
-//   rotate(frameCount * 0.01); // Rotate the shapes over time
-//   circle(0, 0, 50); // x,y,diameter
-//   rect(0, 0, 50, 50); // x,y,width,height
 }
 
 function drawCircles(){
