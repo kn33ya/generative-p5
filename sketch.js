@@ -23,7 +23,7 @@ let aniLines2Checkbox;
 
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight * 0.5);
   noFill();
   strokeWeight(10);
   createP("circles");
