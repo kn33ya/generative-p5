@@ -38,7 +38,7 @@ function setup() {
   lines1DistSlider = createSlider(0, 150, 100);
   lines1ColorPicker = createColorPicker("#000000");
   showLines1Checkbox = createCheckbox("show", true);
-  aniLines1Checkbox = createCheckbox("animate", false);
+  aniLines1Checkbox = createCheckbox("animate!", false);
 
   createP("lines 2");
   lines2NumSlider = createSlider(1, 12, 5);
