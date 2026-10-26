@@ -4,7 +4,6 @@ let circleNumSlider;
 let circleGapSlider;
 let colorPicker;
 let len = 100;
-let shapeSelect;
 
 let lines1NumSlider;
 let lines1LenSlider;
@@ -30,7 +29,8 @@ function setup() {
   createP("circles");
   circleNumSlider = createSlider(1,15, 3); // create a slider for the number of circles (min,max,default,step)
   circleGapSlider = createSlider(20,100, 50); // create a slider for the gap between circles (min, max, default,step)
-  colorPicker = createColorPicker('#0000'); // create a color picker (default color)
+  colorPicker = createColorPicker('#000000'); // create a color picker (default color)
+
   createP("lines 1");
   lines1NumSlider = createSlider(1, 12, 5);
   lines1LenSlider = createSlider(50, 200, 150);
@@ -60,7 +60,7 @@ function draw() {
   }
   drawLines2();
 
-let choice = shapeSelect.value();
+
 
 // if (choice === "circle"){
 //    drawCircles();
